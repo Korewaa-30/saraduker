@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sally's Boutique</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Contact</a>
+            <button class="hamburger">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <form>
+                <input type="search" placeholder="Search products" id="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="#D0AD6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </form>
+        </nav>
+        <img src="logo.jpg" alt="logo" class="logo">
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Sally's Boutique</h2>
+            <h3>Curated Style. Undeniable Confidence.<br><small class="catchy">Your head-to-toe style & beauty
+                    destination...</small></h3>
+            <p>Welcome to Sally's Boutique-your destination for thoughtfully curated fashion, beauty, and grooming
+                essentials. We bring together premium apparel, artisanal footwear, statement accessories, and clean
+                makeup for both men and women. Whether you're refreshing your daily wardrobe, elevating your skincare
+                ritual, or finding that standout piece, we curate the best so you can express the truest version of you.
+            </p>
+            <h2>Categories</h2>
+            <ul class="types">
+                <li class="store"><span><a href="#">Apparel</a></span>
+                    <div class="images"><img src="/women/dress.jpg" alt="outfit"><img src="/men/outfit.jpg"
+                            alt="outfit"></div>
+                </li>
+                <li class="store"><span><a href="#">Shoes</a></span>
+                    <div class="images"><img src="/women/shoes.jpg" alt="shoes"><img src="/men/shoes.jpg" alt="shoes">
+                    </div>
+                </li>
+                <li class="store"><span><a href="#">Bags</a></span>
+                    <div class="images"><img src="/women/bag.jpg" alt="bags"><img src="/men/bag.jpg" alt="bags"></div>
+                </li>
+                <li class="store"><span><a href="#">Accessories</a></span>
+                    <div class="images"><img src="/women/accessories.jpg" alt="accessories"><img
+                            src="/men/accessories.jpg" alt="accessories"></div>
+                </li>
+                <li class="store"><span><a href="#">Beauty & Wellness</a></span>
+                    <div class="images"><img src="/women/b&w.jpg" alt="beauty"><img src="/men/b&w.jpg" alt="grooming">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Featured Products</h2>
+            <h3>Women</h3>
+            <div class="product">
+                <div class="product-card">
+                    <img src="/women/dress.jpg" alt="dress">
+                    <p>2-piece Outfit</p>
+                    <small>GHS 250</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/women/shoes.jpg" alt="shoes">
+                    <p>Stiletto heel</p>
+                    <small>GHS 180</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/women/bag.jpg" alt="bag">
+                    <p>Leather bag</p>
+                    <small>GHS 150</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/women/accessories.jpg" alt="accessories">
+                    <p>Gold Statement Jewelry Set</p>
+                    <small>GHS 300</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/women/b&w.jpg" alt="beauty">
+                    <p>Full beauty set</p>
+                    <small>GHS 200</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+            </div>
+            <h3>Men</h3>
+            <div class="product">
+                <div class="product-card">
+                    <img src="/men/outfit.jpg" alt="apparel">
+                    <p>Casual Corporate outfit</p>
+                    <small>GHS 300</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/men/shoes.jpg" alt="shoes">
+                    <p>Classic Bit Loafers</p>
+                    <small>GHS 120</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/men/bag.jpg" alt="bag">
+                    <p>Leather bag</p>
+                    <small>GHS 280</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/men/accessories.jpg" alt="accessories">
+                    <p>Men's Accessories Collection</p>
+                    <small>GHS 300</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+                <div class="product-card">
+                    <img src="/men/b&w.jpg" alt="grooming">
+                    <p>Men's Grooming Essentials</p>
+                    <small>GHS 400</small><br>
+                    <button class="btn">Choose options</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>Newsletter</h4>
+            <form>
+                <div class="newsletter">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            <a href="#"><img src="inst.jfif" alt="instagram" class="icon"></a>
+            <a href="#"><img src="fb.webp" alt="facebook" class="icon"></a>
+            <a href="#"><img src="X_logo.jpg" alt="X" class="icon"></a>
+            <a href="#"><img src="tiktok.jpg" alt="TikTok" class="icon"></a>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Women's Collection</a></li>
+                <li><a href="#">Men's Collection</a></li>
+                <li><a href="#">Beauty & Grooming</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Customer Care</h4>
+            <ul>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Contact Us</h4>
+            <p>📧 info@sallysboutique.com</p>
+            <p>📞 +233 (0) 245-678-901</p>
+            <p>📍 Accra / 9AM - 5PM</p>
+        </div>
+    </footer>
+</body>
+
+</html>
